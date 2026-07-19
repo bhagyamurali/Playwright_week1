@@ -1,5 +1,7 @@
-for (let i=1;i<=20;i++)
+let num
+console.log("The Odd numbers are:");
+for (num=1;num<=20;num++)
     {
-        if(i % 2 !== 0 )
-        console.log(i);
+        if(num % 2 !== 0 )
+        console.log(num);
     }
